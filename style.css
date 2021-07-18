@@ -4,3 +4,13 @@
     border:2px solid red;
     padding: 10px;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Taipei Sans TC Beta";
+}
+
+a{
+    text-decoration: none;
+}

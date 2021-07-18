@@ -14,7 +14,7 @@
     <form action="">
         <div>
             <label for="name">姓名：</label>
-            <input type="text" name="name" id="name" value="呱呱呱"/>
+            <input type="text" name="name" id="name"/>
         </div>
         <br>
         <div>
