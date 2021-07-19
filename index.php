@@ -11,30 +11,33 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form action="">
-        <div>
-            <label for="name">姓名：</label>
-            <input type="text" name="name" id="name"/>
-        </div>
+    <div class="card">
+        <form action="">
+            <div>
+                <label for="name">姓名：</label>
+                <input type="text" name="name" id="name"/>
+            </div>
+            <br>
+            <div>
+                <select name="type" id="type">
+                    <option value="date" selected>日期</option>
+                    <option value="time">時間</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" value="送出"/>
+        </form>
         <br>
-        <div>
-            <select name="type" id="type">
-                <option value="date" selected>日期</option>
-                <option value="time">時間</option>
-            </select>
-        </div>
-        <br>
-        <input type="submit" value="送出"/>
-    </form>
-    <br>
 
-    <div class="box">
-        <div id="date"></div><br>
-        <div id="myname"></div>
+        <div class="box">
+            <div id="date"></div><br>
+            <div id="myname"></div>
+        </div>
+        <br>
     </div>
-    <br>
 
     <a href="postDateTime.php" class="tabs">載入網頁</a>
     <br>
+     
 </body>
 </html>
